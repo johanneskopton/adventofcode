@@ -6,7 +6,16 @@ I try to focus a bit on clean code, that is also performant on larger inputs.
 
 Therefore, I generated larger inputs, that are similar to the original ones to test performance.
 
-Execute all scripts from the base directory of the year as working directory.
+Execute all scripts from the base directory `2022`, like so:
+```sh
+# Python
+python3 python/dayXX.py
+
+# C
+mkdir c/build
+gcc -std=c17 c/dayXX.c -o c/build/dayXX
+./c/build/dayXX
+```
 
 ## Performance test results
 
