@@ -15,5 +15,5 @@ while active:
         calories_this = 0
     else:
         calories_this += int(line)
-print("Part1: {}".format(max(calories_richest)))
-print("Part2: {}".format(sum(calories_richest)))
+print("Part1:\t{}".format(max(calories_richest)))
+print("Part2:\t{}".format(sum(calories_richest)))

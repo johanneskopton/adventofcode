@@ -75,8 +75,8 @@ int main(void) {
         }
     }
 
-    printf("Part1: \t%d\n", arrmax(calories_richest, LENGTH));
-    printf("Part2: \t%d\n", sum(calories_richest, LENGTH));
+    printf("Part1:\t%d\n", arrmax(calories_richest, LENGTH));
+    printf("Part2:\t%d\n", sum(calories_richest, LENGTH));
 
     return EXIT_SUCCESS;
 }
