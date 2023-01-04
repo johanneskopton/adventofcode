@@ -44,6 +44,8 @@ Notes on memory: Python solutions b and c require lots of memory, since all data
 
 All results with input `day02_large.txt`.
 
+- C
+  - 0.019
 - Python
   - a: 0.617
   - b: 1.267
