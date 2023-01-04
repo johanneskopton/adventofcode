@@ -30,3 +30,11 @@ All results with input `day01_large.txt`.
   - c: 0.170
 
 Notes on memory: Python solutions b and c require lots of memory, since all data is loaded at once.
+
+### Day 2
+
+All results with input `day02_large.txt`.
+
+- Python
+  - a: 0.617
+  - b: 1.267
