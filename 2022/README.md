@@ -49,3 +49,11 @@ All results with input `day02_large.txt`.
 - Python
   - a: 0.617
   - b: 1.267
+
+### Day 3
+
+All results with my personal input (sorry, I was too lazy to generate a large one this time).
+
+- Python
+  - a: 0.013
+  - b: 0.017
