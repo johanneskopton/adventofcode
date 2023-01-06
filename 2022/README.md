@@ -54,6 +54,8 @@ All results with input `day02_large.txt`.
 
 All results with my personal input (sorry, I was too lazy to generate a large one this time).
 
+- C
+  - 0.007
 - Python
   - a: 0.013
   - b: 0.017
