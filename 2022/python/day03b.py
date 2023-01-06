@@ -1,4 +1,4 @@
-infile = open("data/day03_input.txt", "r")
+infile = open("data/day03_large.txt", "r")
 data = [a.strip() for a in infile.readlines()]
 data_halves = [[set(a[:len(a)//2]), set(a[len(a)//2:])] for a in data]
 data = [set(a) for a in data]

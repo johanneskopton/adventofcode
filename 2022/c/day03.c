@@ -1,4 +1,4 @@
-#define INPUT_FILE "data/day03_input.txt"
+#define INPUT_FILE "data/day03_large.txt"
 
 #include <stdio.h>
 #include <string.h>

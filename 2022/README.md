@@ -52,10 +52,11 @@ All results with input `day02_large.txt`.
 
 ### Day 3
 
-All results with my personal input (sorry, I was too lazy to generate a large one this time).
+All results with input `day03_large.txt`.
 
 - C
-  - 0.007
+  - 2.158
 - Python
-  - a: 0.013
-  - b: 0.017
+  - a: 0.324 (why on earth is it this fast?)
+  - b: 3.765
+  - c: ----- (did not finish in about 10 min 🤨)

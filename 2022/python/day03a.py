@@ -1,4 +1,4 @@
-infile = open("data/day03_input.txt", "r")
+infile = open("data/day03_large.txt", "r")
 total_score1 = 0
 total_score2 = 0
 i = 0
