@@ -18,9 +18,11 @@ char intersect_halves(char line[50], unsigned char halflength){
 char intersect_groups(char line_history[3][50], unsigned char length_history[3]){
     for (unsigned char i=0; i<length_history[0]; i++){
         for (unsigned char j=0; j<length_history[1]; j++){
-            for (unsigned char k=0; k<length_history[2]; k++){
-                if (line_history[0][i] == line_history[1][j] && line_history[0][i] == line_history[2][k]){
-                    return line_history[0][i];
+            if (line_history[0][i] == line_history[1][j]){
+                for (unsigned char k=0; k<length_history[2]; k++){
+                    if (line_history[0][i] == line_history[2][k]){
+                        return line_history[0][i];
+                    }
                 }
             }
         }    
