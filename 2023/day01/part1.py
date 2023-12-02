@@ -1,6 +1,6 @@
 import re
 
-f = open("input01.txt", "r")
+f = open("input.txt", "r")
 lines = f.readlines()
 f.close()
 
